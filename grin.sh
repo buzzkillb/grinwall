@@ -11,10 +11,10 @@ case $choice in
 				echo "get binary and untar"
 				mkdir download
 				cd download
-				wget https://github.com/mimblewimble/grin/releases/download/v0.5.2/grin-v0.5.2-478131988-linux-amd64.tgz
-				tar -xvf grin-v0.5.2-478131988-linux-amd64.tgz
+				wget https://github.com/mimblewimble/grin/releases/download/v1.0.0/grin-v1.0.0-479973573-linux-amd64.tgz
+				tar -xvf grin-v1.0.0-479973573-linux-amd64.tgz
 				sudo mv grin /usr/local/bin/grin
-				rm grin-v0.5.2-478131988-linux-amd64.tgz
+				rm grin-v1.0.0-479973573-linux-amd64.tgz
 				cd ~
 
 				echo "Install Stuff"
