@@ -10,6 +10,6 @@ echo "Install Stuff"
 sudo apt-get -y install build-essential cmake git libgit2-dev clang libncurses5-dev libncursesw5-dev zlib1g-dev pkg-config libssl-dev llvm
 
 echo "to Run Grin on testnet"
-echo "grin --floonet"
+echo "$(tput setaf 6)grin --floonet$(tput sgr0)"
 echo "To Create Wallet"
-echo "grin --floonet wallet init" 
+echo "$(tput setaf 6)grin --floonet wallet init$(tput sgr0)"
